@@ -10,8 +10,6 @@ context('Funcionalidade Acesso', () => {   // bloco de função
         cy.screenshot() // Realiza print do teste após sua finalização
     });
 
-
-
     it('Deve fazer login com sucesso', () => {   // cenário positivo ou caminho feliz
         cy.get('#username').type('aluno_ebac@teste.com')
         cy.get('#password').type('teste@teste.com')
